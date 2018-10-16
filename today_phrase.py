@@ -11,6 +11,3 @@ def today_phrase(weekday):
         'всё хорошо, спасибо'
     ]
     return phrases[weekday]
-
-weekday = datetime.date.today().weekday()
-print(today_phrase(weekday))
